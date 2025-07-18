@@ -4,7 +4,8 @@
 -- Dumping data for table actor
 --
 
-INSERT INTO actor VALUES (1,'PENELOPE','GUINESS','2006-02-15 04:34:33'),
+INSERT INTO actor ()VALUES 
+(1,'PENELOPE','GUINESS','2006-02-15 04:34:33'),
 (2,'NICK','WAHLBERG','2006-02-15 04:34:33'),
 (3,'ED','CHASE','2006-02-15 04:34:33'),
 (4,'JENNIFER','DAVIS','2006-02-15 04:34:33'),
@@ -211,7 +212,8 @@ COMMIT;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO `direccion` VALUES (1,'47 MySakila Drive',NULL,'Alberta',300,'','','2014-09-25 22:30:27'),
+INSERT INTO direccion VALUES 
+(1,'47 MySakila Drive',NULL,'Alberta',300,'','','2014-09-25 22:30:27'),
 (2,'28 MySQL Boulevard',NULL,'QLD',576,'','','2014-09-25 22:30:09'),
 (3,'23 Workhaven Lane',NULL,'Alberta',300,'','14033335568','2014-09-25 22:30:27'),
 (4,'1411 Lillydale Drive',NULL,'QLD',576,'','6172235589','2014-09-25 22:30:09'),
@@ -287,7 +289,8 @@ COMMIT;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO ciudad VALUES (1,'A Corua (La Corua)',87,'2006-02-15 04:45:25'),
+INSERT INTO ciudad VALUES 
+(1,'A Corua (La Corua)',87,'2006-02-15 04:45:25'),
 (2,'Abha',82,'2006-02-15 04:45:25'),
 (3,'Abu Dhabi',101,'2006-02-15 04:45:25'),
 (4,'Acua',60,'2006-02-15 04:45:25'),
@@ -894,7 +897,8 @@ COMMIT;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO pais VALUES (1,'Afghanistan','2006-02-15 04:44:00'),
+INSERT INTO pais VALUES 
+(1,'Afghanistan','2006-02-15 04:44:00'),
 (2,'Algeria','2006-02-15 04:44:00'),
 (3,'American Samoa','2006-02-15 04:44:00'),
 (4,'Angola','2006-02-15 04:44:00'),
